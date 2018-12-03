@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		211AB17600C1892096DE0B96 /* Pods-ImageRecognitionDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ImageRecognitionDemo_Tests/Pods-ImageRecognitionDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E789AA089A7575C3B140021 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E789AA089A7575C3B140021 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ImageRecognitionDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognitionDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,14 +58,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		689C0456F7699897CC031D2A /* ImageRecognitionDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageRecognitionDemo.podspec; path = ../ImageRecognitionDemo.podspec; sourceTree = "<group>"; };
+		689C0456F7699897CC031D2A /* ImageRecognitionDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImageRecognitionDemo.podspec; path = ../ImageRecognitionDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7147DC6B7842736673911147 /* Pods-ImageRecognitionDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7778CE4C72354D16A3B732D1 /* Pods-ImageRecognitionDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-ImageRecognitionDemo_Tests/Pods-ImageRecognitionDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875B669881CE1A0D4A7E634A /* Pods_ImageRecognitionDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF22E4B4C5DA0951E549949 /* Pods-ImageRecognitionDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C267E6FB223C7A8DFD336353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C267E6FB223C7A8DFD336353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E479DAF09A39C3746EBC4072 /* Pods_ImageRecognitionDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				211AB17600C1892096DE0B96 /* Pods-ImageRecognitionDemo_Tests.debug.xcconfig */,
 				7778CE4C72354D16A3B732D1 /* Pods-ImageRecognitionDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ImageRecognitionDemo/ImageRecognitionDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRecognitionDemo.framework",
 			);
@@ -322,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ImageRecognitionDemo_Example-checkManifestLockResult.txt",
 			);
@@ -344,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ImageRecognitionDemo_Tests-checkManifestLockResult.txt",
 			);
