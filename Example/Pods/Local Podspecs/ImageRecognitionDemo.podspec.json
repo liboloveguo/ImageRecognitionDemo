@@ -1,0 +1,22 @@
+{
+  "name": "ImageRecognitionDemo",
+  "version": "0.1.0",
+  "summary": "A short description of ImageRecognitionDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/张利果/ImageRecognitionDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "张利果": "zhang.liguo@icerno.com"
+  },
+  "source": {
+    "git": "https://github.com/张利果/ImageRecognitionDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageRecognitionDemo/Classes/**/*"
+}
