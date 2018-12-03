@@ -2,21 +2,28 @@
   "name": "ImageRecognitionDemo",
   "version": "0.1.0",
   "summary": "A short description of ImageRecognitionDemo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/张利果/ImageRecognitionDemo",
+  "homepage": "https://github.com/liboloveguo/ImageRecognitionDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "张利果": "zhang.liguo@icerno.com"
+    "liboloveguo": "ag970898664@163.com"
   },
   "source": {
-    "git": "https://github.com/张利果/ImageRecognitionDemo.git",
+    "git": "https://github.com/liboloveguo/ImageRecognitionDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ImageRecognitionDemo/Classes/**/*"
+  "source_files": "ImageRecognitionDemo/Classes/**/*.{h,m}",
+  "public_header_files": "ImageRecognitionDemo/Classes/**/*.{h}",
+  "vendored_frameworks": "ImageRecognitionDemo/Classes/**/*.{framework}",
+  "resource_bundles": {
+    "ImageRecognitionDemo": [
+      "ImageRecognitionDemo/Assets/**/*.{png,jpg}",
+      "ImageRecognitionDemo/Classes/**/*.{xib}"
+    ]
+  }
 }

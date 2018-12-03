@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ZLGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZLGAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ZLGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZLGViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EE73CEC521B57EF300EA0CB2 /* InfoDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE73CEC221B57EF300EA0CB2 /* InfoDisplayViewController.m */; };
+		EE73CEC621B57EF300EA0CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE73CEC321B57EF300EA0CB2 /* ViewController.m */; };
 		FEFF8BC2412A6C86F2E07823 /* Pods_ImageRecognitionDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E479DAF09A39C3746EBC4072 /* Pods_ImageRecognitionDemo_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +50,6 @@
 		6003F59B195388D20070C39A /* ImageRecognitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionDemo-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZLGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZLGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ZLGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ZLGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ImageRecognitionDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,6 +66,10 @@
 		9BF22E4B4C5DA0951E549949 /* Pods-ImageRecognitionDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C267E6FB223C7A8DFD336353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E479DAF09A39C3746EBC4072 /* Pods_ImageRecognitionDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE73CEC121B57EF300EA0CB2 /* InfoDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDisplayViewController.h; sourceTree = "<group>"; };
+		EE73CEC221B57EF300EA0CB2 /* InfoDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDisplayViewController.m; sourceTree = "<group>"; };
+		EE73CEC321B57EF300EA0CB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE73CEC421B57EF300EA0CB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +135,13 @@
 		6003F593195388D20070C39A /* Example for ImageRecognitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE73CEC121B57EF300EA0CB2 /* InfoDisplayViewController.h */,
+				EE73CEC221B57EF300EA0CB2 /* InfoDisplayViewController.m */,
+				EE73CEC421B57EF300EA0CB2 /* ViewController.h */,
+				EE73CEC321B57EF300EA0CB2 /* ViewController.m */,
 				6003F59C195388D20070C39A /* ZLGAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZLGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ZLGViewController.h */,
-				6003F5A6195388D20070C39A /* ZLGViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -301,10 +306,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example-frameworks.sh",
+				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipBase.framework",
+				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework",
+				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/IdcardQuality.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageRecognitionDemo/ImageRecognitionDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AipBase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AipOcrSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IdcardQuality.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRecognitionDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,8 +367,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZLGAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ZLGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				EE73CEC521B57EF300EA0CB2 /* InfoDisplayViewController.m in Sources */,
+				EE73CEC621B57EF300EA0CB2 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,9 +500,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageRecognitionDemo/ImageRecognitionDemo-Prefix.pch";
 				INFOPLIST_FILE = "ImageRecognitionDemo/ImageRecognitionDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlg.zlg.ImageRecognitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -503,9 +517,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageRecognitionDemo/ImageRecognitionDemo-Prefix.pch";
 				INFOPLIST_FILE = "ImageRecognitionDemo/ImageRecognitionDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlg.zlg.ImageRecognitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
