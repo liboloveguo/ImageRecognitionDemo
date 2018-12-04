@@ -1,8 +1,7 @@
 use_frameworks!
 
 target 'ImageRecognitionDemo_Example' do
-#  pod 'ImageRecognitionDemo', :path => '../'
-  pod 'ImageRecognitionDemo', :git => 'https://github.com/liboloveguo/ImageRecognitionDemo.git'
+  pod 'ImageRecognitionDemo', :path => '../'
   
   target 'ImageRecognitionDemo_Tests' do
     inherit! :search_paths

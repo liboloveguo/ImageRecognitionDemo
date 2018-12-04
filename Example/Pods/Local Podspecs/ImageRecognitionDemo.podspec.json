@@ -11,7 +11,8 @@
     "liboloveguo": "ag970898664@163.com"
   },
   "source": {
-    "git": "~/Desktop/clone/ImageRecognitionDemo/ImageRecognitionDemo"
+    "git": "https://github.com/liboloveguo/ImageRecognitionDemo.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"

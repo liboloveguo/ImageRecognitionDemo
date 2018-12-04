@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ImageRecognitionDemo: 304796a5d8f95cbc55f27bbca3a168b0c1e5b32e
+  ImageRecognitionDemo: 0b6b229494e71fa9b148ae12f36b6d67aa4997bd
 
-PODFILE CHECKSUM: 5c8deeb1a145692dc595e1ffae8a4e8faeed4ec1
+PODFILE CHECKSUM: 9e69d2ed36571da6b8b9ba2a66845ed9919d1c7f
 
 COCOAPODS: 1.6.0.beta.2
