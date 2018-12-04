@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "ImageRecognition.h"
 #import "AipBase.h"
 #import "AipOpenUDID.h"
 #import "AipTokenManager.h"
@@ -22,6 +21,7 @@
 #import "IdcardQuality.h"
 #import "IdcardQualityAdaptor.h"
 #import "idcard_quality.h"
+#import "ImageRecognition.h"
 
 FOUNDATION_EXPORT double ImageRecognitionDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char ImageRecognitionDemoVersionString[];

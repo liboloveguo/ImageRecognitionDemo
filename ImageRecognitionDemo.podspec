@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageRecognitionDemo'
   s.version          = '0.1.0'
-  s.summary           = '123123'
+  s.summary           = 'ImageRecognitionDemo ceshi shiyong'
   s.homepage         = 'https://github.com/liboloveguo/ImageRecognitionDemo'
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

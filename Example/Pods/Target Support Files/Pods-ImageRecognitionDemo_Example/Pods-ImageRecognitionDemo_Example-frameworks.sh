@@ -153,15 +153,15 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipBase.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/IdcardQuality.framework"
+  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/AipBase.framework"
+  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/AipOcrSdk.framework"
+  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/IdcardQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ImageRecognitionDemo/ImageRecognitionDemo.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipBase.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework"
-  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/IdcardQuality.framework"
+  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/AipBase.framework"
+  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/AipOcrSdk.framework"
+  install_framework "${PODS_ROOT}/../../ImageRecognitionDemo/Classes/IdcardQuality.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ImageRecognitionDemo/ImageRecognitionDemo.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
