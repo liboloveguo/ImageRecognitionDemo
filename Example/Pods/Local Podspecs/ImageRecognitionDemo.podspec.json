@@ -1,7 +1,7 @@
 {
   "name": "ImageRecognitionDemo",
   "version": "0.1.0",
-  "summary": "A short description of ImageRecognitionDemo.",
+  "summary": "123123",
   "homepage": "https://github.com/liboloveguo/ImageRecognitionDemo",
   "license": {
     "type": "MIT",
@@ -17,13 +17,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ImageRecognitionDemo/Classes/**/*.{h,m}",
   "public_header_files": "ImageRecognitionDemo/Classes/**/*.{h}",
-  "vendored_frameworks": "ImageRecognitionDemo/Classes/**/*.{framework}",
-  "resource_bundles": {
-    "ImageRecognitionDemo": [
-      "ImageRecognitionDemo/Assets/**/*.{png,jpg}",
-      "ImageRecognitionDemo/Classes/**/*.{xib}"
-    ]
-  }
+  "source_files": "ImageRecognitionDemo/Classes/**/*.{h,m}",
+  "vendored_frameworks": "ImageRecognitionDemo/Classes/**/*.{framework}"
 }

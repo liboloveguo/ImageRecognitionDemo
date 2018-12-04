@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageRecognitionDemo'
   s.version          = '0.1.0'
-
+  s.summary           = '123123'
   s.homepage         = 'https://github.com/liboloveguo/ImageRecognitionDemo'
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ImageRecognitionDemo/Classes/**/*'
-  
   s.public_header_files = 'ImageRecognitionDemo/Classes/**/*.{h}'
   s.source_files = 'ImageRecognitionDemo/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'ImageRecognitionDemo/Classes/**/*.{framework}'
