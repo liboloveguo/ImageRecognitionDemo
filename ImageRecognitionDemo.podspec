@@ -3,7 +3,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageRecognitionDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ImageRecognitionDemo.'
 
   s.homepage         = 'https://github.com/liboloveguo/ImageRecognitionDemo'
   
@@ -20,9 +19,9 @@ Pod::Spec.new do |s|
   s.source_files = 'ImageRecognitionDemo/Classes/**/*.{h,m}'
   s.vendored_frameworks = 'ImageRecognitionDemo/Classes/**/*.{framework}'
   
-  s.resource_bundles = {
-      'ImageRecognitionDemo' => ['ImageRecognitionDemo/Assets/**/*.{png,jpg}','ImageRecognitionDemo/Classes/**/*.{xib}']
-  }
+  #s.resource_bundles = {
+  # 'ImageRecognitionDemo' => ['ImageRecognitionDemo/Assets/**/*.{png,jpg}','ImageRecognitionDemo/Classes/**/*.{xib}']
+  #}
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
