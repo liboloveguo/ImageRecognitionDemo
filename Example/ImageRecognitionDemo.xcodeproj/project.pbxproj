@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EE73CEC521B57EF300EA0CB2 /* InfoDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE73CEC221B57EF300EA0CB2 /* InfoDisplayViewController.m */; };
 		EE73CEC621B57EF300EA0CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE73CEC321B57EF300EA0CB2 /* ViewController.m */; };
 		FEFF8BC2412A6C86F2E07823 /* Pods_ImageRecognitionDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E479DAF09A39C3746EBC4072 /* Pods_ImageRecognitionDemo_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -66,8 +65,6 @@
 		9BF22E4B4C5DA0951E549949 /* Pods-ImageRecognitionDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C267E6FB223C7A8DFD336353 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E479DAF09A39C3746EBC4072 /* Pods_ImageRecognitionDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE73CEC121B57EF300EA0CB2 /* InfoDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDisplayViewController.h; sourceTree = "<group>"; };
-		EE73CEC221B57EF300EA0CB2 /* InfoDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDisplayViewController.m; sourceTree = "<group>"; };
 		EE73CEC321B57EF300EA0CB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE73CEC421B57EF300EA0CB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,8 +132,6 @@
 		6003F593195388D20070C39A /* Example for ImageRecognitionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EE73CEC121B57EF300EA0CB2 /* InfoDisplayViewController.h */,
-				EE73CEC221B57EF300EA0CB2 /* InfoDisplayViewController.m */,
 				EE73CEC421B57EF300EA0CB2 /* ViewController.h */,
 				EE73CEC321B57EF300EA0CB2 /* ViewController.m */,
 				6003F59C195388D20070C39A /* ZLGAppDelegate.h */,
@@ -368,7 +363,6 @@
 			files = (
 				6003F59E195388D20070C39A /* ZLGAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				EE73CEC521B57EF300EA0CB2 /* InfoDisplayViewController.m in Sources */,
 				EE73CEC621B57EF300EA0CB2 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

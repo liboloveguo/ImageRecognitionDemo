@@ -20,33 +20,7 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aFi-5a-LcZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="TOh-CS-jbs">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TOh-CS-jbs" id="kX9-DA-rjs">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="whP-gf-Uak" id="pkp-O2-clF"/>
-                                    <outlet property="delegate" destination="whP-gf-Uak" id="eLO-qK-4c3"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="aFi-5a-LcZ" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="BR4-Og-94o"/>
-                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="aFi-5a-LcZ" secondAttribute="bottom" id="CUh-4D-Je3"/>
-                            <constraint firstAttribute="trailing" secondItem="aFi-5a-LcZ" secondAttribute="trailing" id="N4G-at-hvh"/>
-                            <constraint firstItem="aFi-5a-LcZ" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" id="Uv5-BP-dtE"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="列表" id="PFK-zT-xT7"/>
                 </viewController>
@@ -71,38 +45,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="seF-je-Ghm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
-        </scene>
-        <!--Info Display View Controller-->
-        <scene sceneID="yIS-Jx-Uye">
-            <objects>
-                <viewController storyboardIdentifier="InfoDisplayViewController" id="6Ke-Vd-jWx" customClass="InfoDisplayViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0FA-4g-Q8B"/>
-                        <viewControllerLayoutGuide type="bottom" id="jff-UD-4dr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9KO-Hs-MCK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zxn-Yy-ctJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Zxn-Yy-ctJ" firstAttribute="leading" secondItem="9KO-Hs-MCK" secondAttribute="leading" id="DJZ-qX-8J4"/>
-                            <constraint firstItem="Zxn-Yy-ctJ" firstAttribute="top" secondItem="9KO-Hs-MCK" secondAttribute="top" id="TFL-St-oZP"/>
-                            <constraint firstItem="Zxn-Yy-ctJ" firstAttribute="bottom" secondItem="jff-UD-4dr" secondAttribute="top" id="cW9-qO-bR3"/>
-                            <constraint firstAttribute="trailing" secondItem="Zxn-Yy-ctJ" secondAttribute="trailing" id="cZq-7c-nGX"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="scrollview" destination="Zxn-Yy-ctJ" id="yeG-CY-JNB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4bK-xe-p2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1362" y="-568"/>
         </scene>
     </scenes>
 </document>
