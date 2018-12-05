@@ -29,7 +29,7 @@
     [ImageRecognition authWithAK:@"Hr3FEBCnvN53HnoPBhGzczDv" andSK:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
     
     __weak typeof(self) weakSelf = self;
-    [[ImageRecognition sharedInstance] imageRecognitionGeneralBasicVC:self successHandler:^(id result, UIImage *image) {
+    [ImageRecognition imageRecognitionGeneralBasicVC:self successHandler:^(id result, UIImage *image) {
         
         //处理数据
         NSMutableString *message = [NSMutableString string];
