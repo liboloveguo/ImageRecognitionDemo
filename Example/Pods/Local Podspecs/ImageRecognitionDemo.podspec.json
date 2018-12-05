@@ -17,7 +17,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "ImageRecognitionDemo/Classes/**/*.{h}",
   "source_files": "ImageRecognitionDemo/Classes/**/*.{h,m}",
-  "vendored_frameworks": "ImageRecognitionDemo/Classes/**/*.{framework}"
+  "vendored_frameworks": "ImageRecognitionDemo/Classes/lib/*.{framework}"
 }
