@@ -27,6 +27,8 @@
 
 -(void)imageCallBack {
     
+    //从百度云平台申请的对应项目的 AppKey 与 SecretKey
+    
     [ImageRecognition authWithAppKey:@"Hr3FEBCnvN53HnoPBhGzczDv" andSecretKey:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
     
     __weak typeof(self) weakSelf = self;

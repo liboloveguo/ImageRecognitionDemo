@@ -301,8 +301,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example-frameworks.sh",
-				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipBase.framework",
-				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework",
+				"${PODS_ROOT}/ImageRecognitionDemo/ImageRecognitionDemo/Classes/lib/AipBase.framework",
+				"${PODS_ROOT}/ImageRecognitionDemo/ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageRecognitionDemo/ImageRecognitionDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";

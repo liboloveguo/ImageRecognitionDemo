@@ -1,16 +1,16 @@
 PODS:
-  - ImageRecognitionDemo (0.1.0)
+  - ImageRecognitionDemo (0.2.0)
 
 DEPENDENCIES:
-  - ImageRecognitionDemo (from `../`)
+  - ImageRecognitionDemo
 
-EXTERNAL SOURCES:
-  ImageRecognitionDemo:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ImageRecognitionDemo
 
 SPEC CHECKSUMS:
-  ImageRecognitionDemo: 541f6cf5cb5f01bb96cb0721e8b36b95da68e83e
+  ImageRecognitionDemo: d35feb5acc70af8158e255551226b80a51334e43
 
-PODFILE CHECKSUM: 9e69d2ed36571da6b8b9ba2a66845ed9919d1c7f
+PODFILE CHECKSUM: 4ef0e3f729dd411e93377f7f0ea3e1575ead63f0
 
 COCOAPODS: 1.6.0.beta.2
