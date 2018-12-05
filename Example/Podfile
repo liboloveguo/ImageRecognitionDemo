@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ImageRecognitionDemo_Example' do
-  pod 'ImageRecognitionDemo', :path => '../'
+  pod 'ImageRecognitionDemo', :path => 'ImageRecognitionDemo/ImageRecognitionDemo.podspec'
   
   target 'ImageRecognitionDemo_Tests' do
     inherit! :search_paths

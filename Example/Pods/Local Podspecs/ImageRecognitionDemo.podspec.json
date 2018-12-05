@@ -19,9 +19,5 @@
   },
   "public_header_files": "ImageRecognitionDemo/Classes/**/*.{h}",
   "source_files": "ImageRecognitionDemo/Classes/**/*.{h,m}",
-  "vendored_frameworks": "ImageRecognitionDemo/Classes/**/*.{framework}",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
-  ]
+  "vendored_frameworks": "ImageRecognitionDemo/Classes/**/*.{framework}"
 }

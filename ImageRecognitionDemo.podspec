@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'ImageRecognitionDemo/Classes/**/*.{h}'
+#s.public_header_files = 'ImageRecognitionDemo/Classes/**/*.{h}'
   s.source_files = 'ImageRecognitionDemo/Classes/**/*.{h,m}'
-  s.vendored_frameworks = 'ImageRecognitionDemo/Classes/**/*.{framework}'
+  s.vendored_frameworks = 'ImageRecognitionDemo/Classes/lib/*.{framework}'
   
   #s.resource_bundles = {
   # 'ImageRecognitionDemo' => ['ImageRecognitionDemo/Assets/**/*.{png,jpg}','ImageRecognitionDemo/Classes/**/*.{xib}']
