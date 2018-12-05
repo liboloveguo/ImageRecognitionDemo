@@ -14,7 +14,7 @@
 @implementation ImageRecognition
 
 
-+ (void)authWithAK: (NSString *)ak andSK: (NSString *)sk {
++ (void)authWithAppKey: (NSString *)ak andSecretKey: (NSString *)sk {
     [[AipOcrService shardService] authWithAK:ak andSK:sk];
 }
 

@@ -16,6 +16,6 @@
  * 使用Api Key, Secret Key授权
  */
 
-+ (void)authWithAK: (NSString *)ak andSK: (NSString *)sk;
++ (void)authWithAppKey: (NSString *)ak andSecretKey: (NSString *)sk;
 
 @end

@@ -27,7 +27,7 @@
 
 -(void)imageCallBack {
     
-    [ImageRecognition authWithAK:@"Hr3FEBCnvN53HnoPBhGzczDv" andSK:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
+    [ImageRecognition authWithAppKey:@"Hr3FEBCnvN53HnoPBhGzczDv" andSecretKey:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
     
     __weak typeof(self) weakSelf = self;
     [ImageRecognition imageRecognitionGeneralBasicVC:self successHandler:^(id result, UIImage *image) {

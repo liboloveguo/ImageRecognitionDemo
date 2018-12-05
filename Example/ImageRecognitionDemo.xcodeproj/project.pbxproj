@@ -303,14 +303,12 @@
 				"${PODS_ROOT}/Target Support Files/Pods-ImageRecognitionDemo_Example/Pods-ImageRecognitionDemo_Example-frameworks.sh",
 				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/AipBase.framework",
 				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/AipOcrSdk.framework",
-				"${PODS_ROOT}/../../ImageRecognitionDemo/Classes/IdcardQuality.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageRecognitionDemo/ImageRecognitionDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AipBase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AipOcrSdk.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IdcardQuality.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRecognitionDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

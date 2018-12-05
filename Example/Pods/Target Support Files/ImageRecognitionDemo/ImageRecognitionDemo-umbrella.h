@@ -18,9 +18,6 @@
 #import "AipGeneralVC.h"
 #import "AipOcrSdk.h"
 #import "AipOcrService.h"
-#import "IdcardQuality.h"
-#import "IdcardQualityAdaptor.h"
-#import "idcard_quality.h"
 #import "ImageRecognition.h"
 
 FOUNDATION_EXPORT double ImageRecognitionDemoVersionNumber;
