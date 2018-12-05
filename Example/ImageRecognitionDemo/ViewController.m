@@ -26,6 +26,7 @@
 }
 
 -(void)imageCallBack {
+    
     [ImageRecognition authWithAK:@"Hr3FEBCnvN53HnoPBhGzczDv" andSK:@"7YP7Vs6ImUtCOLbz95TUlO3LjnbYfC2H"];
     
     __weak typeof(self) weakSelf = self;
@@ -62,7 +63,13 @@
         
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
             [weakSelf dismissViewControllerAnimated:YES completion:nil];
-            weakSelf.textView.text = message;
+            
+            if (message.length > 0) {
+                weakSelf.textView.text = message;
+            }
+            else{
+                weakSelf.textView.text = @"内容为空";
+            }
             NSLog(@"%@",message);
         }];
         
@@ -70,6 +77,7 @@
         
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
             [weakSelf dismissViewControllerAnimated:YES completion:nil];
+            weakSelf.textView.text = @"识别有误";
             NSLog(@"%@",err);
         }];
         
