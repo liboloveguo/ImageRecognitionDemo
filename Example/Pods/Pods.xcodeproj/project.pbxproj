@@ -8,24 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0005F4C2FA836153E726523056C87D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		082FA4FF0FAF105116D1FF37FEA242B3 /* AipOpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 337B5DDBAB5D42319D74F111032C2792 /* AipOpenUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C91AC6BD888476EE4A0784912573FA0 /* Pods-ImageRecognitionDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEDA95DBFA753B6457CCB270A502092 /* Pods-ImageRecognitionDemo_Example-dummy.m */; };
-		136F515447BDA4E0716FA51CB3B00A54 /* AipCaptureCardVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 910BC107D7232EC1845CED83AEAEFCAA /* AipCaptureCardVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		156FC39BFFE3860D7FCE7B900406D562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		163C8B69836170B3E72282F3F1A056E1 /* AipOcrSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD01A31F617AC44491DB3FD03069325 /* AipOcrSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21F1AE095BA875AE87C361492C06487E /* AipBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEC5D750026E8F2EAC54FA213A193CF /* AipBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E39429D528AD6C216BE42C1D3664FD8 /* Pods-ImageRecognitionDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E65749F0077EA910738AAA2D0799554 /* Pods-ImageRecognitionDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40AB494D5267364C7320B14E37D968F0 /* ImageRecognitionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA39E0F0184A3B19F70C477E1001AC4 /* ImageRecognitionDemo-dummy.m */; };
+		54E435565999FC518572B7FDDA3E8CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		896FB5E56BCC361D55C3B27BB048C558 /* Pods-ImageRecognitionDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6995B16F57DD65189444A3B435273F0C /* Pods-ImageRecognitionDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FEB08EF9D3B730C05D1BB1AC21572D1 /* NSErrorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 183A082762EDF3136EA71801F91F830C /* NSErrorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961BF1EAE7B318CA15B6D36EEA7C01D0 /* ImageRecognitionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03231F953DC7C30BC866607D3577AD0C /* ImageRecognitionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A183E8F6DE67B8674241F220A206E133 /* Pods-ImageRecognitionDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21930776A8112CBCBBB757DB4D6F735A /* Pods-ImageRecognitionDemo_Tests-dummy.m */; };
-		A25A7A65A1B603E42B71DBECA1B5AA24 /* AipOcrService.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB1EF7530A2E6E4BD4B4BDBD81473B2 /* AipOcrService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE545FF8A7FBEE5E5ADD6CA1FE74A56 /* AipGeneralVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FECD21BDECACB624BFAD3556A81C3E23 /* AipGeneralVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C31C3000081DADBA5EA89483951E98F5 /* ImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4711FDACD684FA5D9E258A5814A02FC7 /* ImageRecognition.m */; };
-		C44066C7D0778A6E2417DF81C9ECCB7D /* AipTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FD99A09C1ABC901F8B735565909102 /* AipTokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6C9C7BF2F39F40F20CEB3A8DF6D47FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		EE99C1463DE43CC92A6A46CCF49D1E22 /* ImageRecognitionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0132EE87921559E21A887EFDAFF683 /* ImageRecognitionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0B78901CA325208059993D411DA1FF1 /* ImageRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5790ABD763D6855CA6FF669124C82A8C /* ImageRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9F780DAB40A52CEE76A8F968F28DD0C /* ImageRecognitionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F9993F436E3CEC831E680028B47FF /* ImageRecognitionDemo-dummy.m */; };
+		B328A8F9FBF4E2DE8892BF493B8EF40B /* ImageRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D73B22433DDC9FBDBEB445D90DB481 /* ImageRecognition.m */; };
+		C506DC0ADFC40C07C84070C649D73CD0 /* ImageRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9696959ACE3267C01AAFEAC74FFAD429 /* ImageRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9241629E8364D1AB2AC200AB59688FC6;
+			remoteGlobalIDString = ABA675D095F42B44C48750EB7752A09C;
 			remoteInfo = ImageRecognitionDemo;
 		};
 		6F8C47766D3A15B2B13987B6334FCFF7 /* PBXContainerItemProxy */ = {
@@ -46,57 +38,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03231F953DC7C30BC866607D3577AD0C /* ImageRecognitionDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionDemo-umbrella.h"; sourceTree = "<group>"; };
 		089FF73280C2D7D01FDAB642F512618A /* ImageRecognitionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageRecognitionDemo.framework; path = ImageRecognitionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A1195C2C61A43C4C6A043CFBFB9FC26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0D2321A0B949A60AED89B3EE93C4D60E /* ImageRecognitionDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageRecognitionDemo.xcconfig; sourceTree = "<group>"; };
-		14FD99A09C1ABC901F8B735565909102 /* AipTokenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipTokenManager.h; sourceTree = "<group>"; };
-		183A082762EDF3136EA71801F91F830C /* NSErrorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSErrorHelper.h; sourceTree = "<group>"; };
-		1BB1EF7530A2E6E4BD4B4BDBD81473B2 /* AipOcrService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrService.h; sourceTree = "<group>"; };
 		21930776A8112CBCBBB757DB4D6F735A /* Pods-ImageRecognitionDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageRecognitionDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		337B5DDBAB5D42319D74F111032C2792 /* AipOpenUDID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOpenUDID.h; sourceTree = "<group>"; };
 		33E995E8323074E90EFA8A1F295814DE /* Pods-ImageRecognitionDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		3F3FC6AB60C522646ADCD3A221B337D5 /* Pods-ImageRecognitionDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionDemo_Example-Info.plist"; sourceTree = "<group>"; };
 		403FE44F0957F00E2A158A158CA7143F /* Pods-ImageRecognitionDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4711FDACD684FA5D9E258A5814A02FC7 /* ImageRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageRecognition.m; path = ImageRecognitionDemo/Classes/ImageRecognition.m; sourceTree = "<group>"; };
-		51E209158A3379B39915A09677D595AA /* ImageRecognitionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageRecognitionDemo.modulemap; sourceTree = "<group>"; };
-		52B09180F879844E43710097E9E39F60 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework; sourceTree = "<group>"; };
-		5790ABD763D6855CA6FF669124C82A8C /* ImageRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageRecognition.h; path = ImageRecognitionDemo/Classes/ImageRecognition.h; sourceTree = "<group>"; };
+		42E8DE775C39891C4E37B91BF98FE4CA /* ImageRecognitionDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageRecognitionDemo.xcconfig; sourceTree = "<group>"; };
+		5628EF78466B7F749F75E24FF3B513E0 /* ImageRecognitionDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageRecognitionDemo-Info.plist"; sourceTree = "<group>"; };
 		631763A972D79CE0FF54C844E915979E /* Pods-ImageRecognitionDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageRecognitionDemo_Example.modulemap"; sourceTree = "<group>"; };
-		649CFFD509684CFABD12F63FC9D968F1 /* ImageRecognitionDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionDemo-prefix.pch"; sourceTree = "<group>"; };
 		6995B16F57DD65189444A3B435273F0C /* Pods-ImageRecognitionDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageRecognitionDemo_Example-umbrella.h"; sourceTree = "<group>"; };
-		789983930C8C059A670972CBFA7EE432 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74AC323ADF9F358D259BD1EB19FD3B64 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = ImageRecognitionDemo/Classes/lib/AipOcrSdk.framework; sourceTree = "<group>"; };
 		7B3BE7BC66382CD5951AD9830277D0B0 /* Pods-ImageRecognitionDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageRecognitionDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B62780B6D31A152250E841147AB6D60 /* Pods-ImageRecognitionDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageRecognitionDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E0132EE87921559E21A887EFDAFF683 /* ImageRecognitionDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionDemo-umbrella.h"; sourceTree = "<group>"; };
 		7EEDA95DBFA753B6457CCB270A502092 /* Pods-ImageRecognitionDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageRecognitionDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		842EBB484801A68BFAF136FF7DFF3D11 /* ImageRecognitionDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageRecognitionDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E65749F0077EA910738AAA2D0799554 /* Pods-ImageRecognitionDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageRecognitionDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		910BC107D7232EC1845CED83AEAEFCAA /* AipCaptureCardVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipCaptureCardVC.h; sourceTree = "<group>"; };
+		9696959ACE3267C01AAFEAC74FFAD429 /* ImageRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageRecognition.h; path = ImageRecognitionDemo/Classes/ImageRecognition.h; sourceTree = "<group>"; };
 		977428839AFB245F3234CB92FE17B0AC /* Pods-ImageRecognitionDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9BD01A31F617AC44491DB3FD03069325 /* AipOcrSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipOcrSdk.h; sourceTree = "<group>"; };
-		9DEC5D750026E8F2EAC54FA213A193CF /* AipBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipBase.h; sourceTree = "<group>"; };
-		A77F9993F436E3CEC831E680028B47FF /* ImageRecognitionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageRecognitionDemo-dummy.m"; sourceTree = "<group>"; };
+		9BA39E0F0184A3B19F70C477E1001AC4 /* ImageRecognitionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageRecognitionDemo-dummy.m"; sourceTree = "<group>"; };
+		A1157D28B440C3B4A51915439C84EE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A7BAC1205F20E5D47E4DF2E3983338E6 /* Pods-ImageRecognitionDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageRecognitionDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		ADC14E05DB62EECB05E539CFD24421AA /* Pods_ImageRecognitionDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageRecognitionDemo_Example.framework; path = "Pods-ImageRecognitionDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BAEA217032B365D58A37B8396B73AE0D /* ImageRecognitionDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImageRecognitionDemo-Info.plist"; sourceTree = "<group>"; };
-		C53327378A41EA9FD67518CDB41E6EDB /* ImageRecognitionDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImageRecognitionDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B663994407257F514FBDA48B45FC692A /* ImageRecognitionDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageRecognitionDemo-prefix.pch"; sourceTree = "<group>"; };
 		C9189CB593FAB9888A8999B1105E349B /* Pods-ImageRecognitionDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageRecognitionDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA52A2B5DE71816CF4FC4006D8CE50FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D7B2C94D8340AAEF036F65C7F3BA997A /* Pods_ImageRecognitionDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageRecognitionDemo_Tests.framework; path = "Pods-ImageRecognitionDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE23FFF3716C26A0C534DBB7F994ADAE /* Pods-ImageRecognitionDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E31D46DD9457E41C97D1C765601C029F /* Pods-ImageRecognitionDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EC70FCCEC6A3D4CFEB9862BBF78B035A /* Pods-ImageRecognitionDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ECDE3517D6D732540C1B06B8531ED074 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = ImageRecognitionDemo/Classes/lib/AipBase.framework; sourceTree = "<group>"; };
+		F0D73B22433DDC9FBDBEB445D90DB481 /* ImageRecognition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageRecognition.m; path = ImageRecognitionDemo/Classes/ImageRecognition.m; sourceTree = "<group>"; };
 		F500EB3004C760E3F47E67D84B1DCE16 /* Pods-ImageRecognitionDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FECD21BDECACB624BFAD3556A81C3E23 /* AipGeneralVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AipGeneralVC.h; sourceTree = "<group>"; };
+		FA3663E9C7D0EA316405C8891F37C386 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = ImageRecognitionDemo/Classes/lib/AipBase.framework; sourceTree = "<group>"; };
+		FA6E5FA970088CDFEA4A2CE2A8A26E63 /* ImageRecognitionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageRecognitionDemo.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04538DE32CA060A605BB2F5825EB1471 /* Frameworks */ = {
+		5C50E61D250152AFB59D7A016EF32E4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C9C7BF2F39F40F20CEB3A8DF6D47FC /* Foundation.framework in Frameworks */,
+				54E435565999FC518572B7FDDA3E8CDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,30 +103,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A916F742132E72691D214C422167B5E /* Headers */ = {
+		1BC0331F42BDCD2BAE8E7507AD36F2EE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				910BC107D7232EC1845CED83AEAEFCAA /* AipCaptureCardVC.h */,
-				FECD21BDECACB624BFAD3556A81C3E23 /* AipGeneralVC.h */,
-				9BD01A31F617AC44491DB3FD03069325 /* AipOcrSdk.h */,
-				1BB1EF7530A2E6E4BD4B4BDBD81473B2 /* AipOcrService.h */,
+				842EBB484801A68BFAF136FF7DFF3D11 /* ImageRecognitionDemo.podspec */,
+				CA52A2B5DE71816CF4FC4006D8CE50FF /* LICENSE */,
+				A1157D28B440C3B4A51915439C84EE71 /* README.md */,
 			);
-			name = Headers;
-			path = Headers;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		44633DEE23CA7544E98466273BEAF742 /* Support Files */ = {
+		1FF78848FDBF832AE4B3F935B0417232 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51E209158A3379B39915A09677D595AA /* ImageRecognitionDemo.modulemap */,
-				0D2321A0B949A60AED89B3EE93C4D60E /* ImageRecognitionDemo.xcconfig */,
-				A77F9993F436E3CEC831E680028B47FF /* ImageRecognitionDemo-dummy.m */,
-				BAEA217032B365D58A37B8396B73AE0D /* ImageRecognitionDemo-Info.plist */,
-				649CFFD509684CFABD12F63FC9D968F1 /* ImageRecognitionDemo-prefix.pch */,
-				7E0132EE87921559E21A887EFDAFF683 /* ImageRecognitionDemo-umbrella.h */,
+				7009A38CBAE8572F9D5B4B71330A8FE7 /* ImageRecognitionDemo */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageRecognitionDemo";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -163,25 +139,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49B20E8C42C30461E0CB32711CDDCBA2 /* AipOcrSdk.framework */ = {
-			isa = PBXGroup;
-			children = (
-				0A916F742132E72691D214C422167B5E /* Headers */,
-			);
-			name = AipOcrSdk.framework;
-			path = AipOcrSdk.framework;
-			sourceTree = "<group>";
-		};
-		4E109E05E741DCD7DFFC2A219E1A4F08 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C53327378A41EA9FD67518CDB41E6EDB /* ImageRecognitionDemo.podspec */,
-				789983930C8C059A670972CBFA7EE432 /* LICENSE */,
-				0A1195C2C61A43C4C6A043CFBFB9FC26 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4F420EBC6B37F2082653CED6F5E1E436 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,18 +146,6 @@
 				EBEE35C158E8500E17B16413D227A225 /* Pods-ImageRecognitionDemo_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		535199C5C2A02DC57E28C28737119D89 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				9DEC5D750026E8F2EAC54FA213A193CF /* AipBase.h */,
-				337B5DDBAB5D42319D74F111032C2792 /* AipOpenUDID.h */,
-				14FD99A09C1ABC901F8B735565909102 /* AipTokenManager.h */,
-				183A082762EDF3136EA71801F91F830C /* NSErrorHelper.h */,
-			);
-			name = Headers;
-			path = Headers;
 			sourceTree = "<group>";
 		};
 		600B156ECEB88CE563F63B372BD7284D /* Pods-ImageRecognitionDemo_Example */ = {
@@ -220,71 +165,57 @@
 			path = "Target Support Files/Pods-ImageRecognitionDemo_Example";
 			sourceTree = "<group>";
 		};
+		7009A38CBAE8572F9D5B4B71330A8FE7 /* ImageRecognitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9696959ACE3267C01AAFEAC74FFAD429 /* ImageRecognition.h */,
+				F0D73B22433DDC9FBDBEB445D90DB481 /* ImageRecognition.m */,
+				91B920AB56D8A48EBB42DC9353D5F84C /* Frameworks */,
+				1BC0331F42BDCD2BAE8E7507AD36F2EE /* Pod */,
+				8C49F5F14792E7F7651B84923FD9B2EE /* Support Files */,
+			);
+			name = ImageRecognitionDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				838FA45264B7DDC053E8BA1E5FE54FA5 /* Development Pods */,
+				1FF78848FDBF832AE4B3F935B0417232 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				499C6DA10CB4067C510C7B2881D49F12 /* Products */,
 				4F420EBC6B37F2082653CED6F5E1E436 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		838FA45264B7DDC053E8BA1E5FE54FA5 /* Development Pods */ = {
+		8C49F5F14792E7F7651B84923FD9B2EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8698DD5E004662EC82A451C12C8C23E /* ImageRecognitionDemo */,
+				FA6E5FA970088CDFEA4A2CE2A8A26E63 /* ImageRecognitionDemo.modulemap */,
+				42E8DE775C39891C4E37B91BF98FE4CA /* ImageRecognitionDemo.xcconfig */,
+				9BA39E0F0184A3B19F70C477E1001AC4 /* ImageRecognitionDemo-dummy.m */,
+				5628EF78466B7F749F75E24FF3B513E0 /* ImageRecognitionDemo-Info.plist */,
+				B663994407257F514FBDA48B45FC692A /* ImageRecognitionDemo-prefix.pch */,
+				03231F953DC7C30BC866607D3577AD0C /* ImageRecognitionDemo-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageRecognitionDemo";
 			sourceTree = "<group>";
 		};
-		A5696C89F9CEE0A55D43835309EE279C /* AipBase.framework */ = {
+		91B920AB56D8A48EBB42DC9353D5F84C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				535199C5C2A02DC57E28C28737119D89 /* Headers */,
+				FA3663E9C7D0EA316405C8891F37C386 /* AipBase.framework */,
+				74AC323ADF9F358D259BD1EB19FD3B64 /* AipOcrSdk.framework */,
 			);
-			name = AipBase.framework;
-			path = AipBase.framework;
-			sourceTree = "<group>";
-		};
-		B1486B76A267C61E4C72286D36E5E44C /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				A5696C89F9CEE0A55D43835309EE279C /* AipBase.framework */,
-				49B20E8C42C30461E0CB32711CDDCBA2 /* AipOcrSdk.framework */,
-			);
-			name = lib;
-			path = ImageRecognitionDemo/Classes/lib;
-			sourceTree = "<group>";
-		};
-		B8698DD5E004662EC82A451C12C8C23E /* ImageRecognitionDemo */ = {
-			isa = PBXGroup;
-			children = (
-				5790ABD763D6855CA6FF669124C82A8C /* ImageRecognition.h */,
-				4711FDACD684FA5D9E258A5814A02FC7 /* ImageRecognition.m */,
-				C9D68EF6E146D36E674ACFA0E13E1303 /* Frameworks */,
-				B1486B76A267C61E4C72286D36E5E44C /* lib */,
-				4E109E05E741DCD7DFFC2A219E1A4F08 /* Pod */,
-				44633DEE23CA7544E98466273BEAF742 /* Support Files */,
-			);
-			name = ImageRecognitionDemo;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9D68EF6E146D36E674ACFA0E13E1303 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ECDE3517D6D732540C1B06B8531ED074 /* AipBase.framework */,
-				52B09180F879844E43710097E9E39F60 /* AipOcrSdk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -308,6 +239,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		03A686CC2B23EC1099FBA1A9CF221520 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C506DC0ADFC40C07C84070C649D73CD0 /* ImageRecognition.h in Headers */,
+				961BF1EAE7B318CA15B6D36EEA7C01D0 /* ImageRecognitionDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65F6D5EB2786C80CCE1CC54B08C41A96 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,23 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				896FB5E56BCC361D55C3B27BB048C558 /* Pods-ImageRecognitionDemo_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4E151A1CE85322FF0262D221181BE60 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21F1AE095BA875AE87C361492C06487E /* AipBase.h in Headers */,
-				136F515447BDA4E0716FA51CB3B00A54 /* AipCaptureCardVC.h in Headers */,
-				BDE545FF8A7FBEE5E5ADD6CA1FE74A56 /* AipGeneralVC.h in Headers */,
-				163C8B69836170B3E72282F3F1A056E1 /* AipOcrSdk.h in Headers */,
-				A25A7A65A1B603E42B71DBECA1B5AA24 /* AipOcrService.h in Headers */,
-				082FA4FF0FAF105116D1FF37FEA242B3 /* AipOpenUDID.h in Headers */,
-				C44066C7D0778A6E2417DF81C9ECCB7D /* AipTokenManager.h in Headers */,
-				F0B78901CA325208059993D411DA1FF1 /* ImageRecognition.h in Headers */,
-				EE99C1463DE43CC92A6A46CCF49D1E22 /* ImageRecognitionDemo-umbrella.h in Headers */,
-				9FEB08EF9D3B730C05D1BB1AC21572D1 /* NSErrorHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,14 +286,14 @@
 			productReference = ADC14E05DB62EECB05E539CFD24421AA /* Pods_ImageRecognitionDemo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9241629E8364D1AB2AC200AB59688FC6 /* ImageRecognitionDemo */ = {
+		ABA675D095F42B44C48750EB7752A09C /* ImageRecognitionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD104A4FF312CBE214431433E18CCA08 /* Build configuration list for PBXNativeTarget "ImageRecognitionDemo" */;
+			buildConfigurationList = F88F94E91332658DF65FE7026242B565 /* Build configuration list for PBXNativeTarget "ImageRecognitionDemo" */;
 			buildPhases = (
-				D4E151A1CE85322FF0262D221181BE60 /* Headers */,
-				F1C41CFFCA31194409546FA2EBE298B2 /* Sources */,
-				04538DE32CA060A605BB2F5825EB1471 /* Frameworks */,
-				AA01AB3B6F9B2A50E48A06D6009E427C /* Resources */,
+				03A686CC2B23EC1099FBA1A9CF221520 /* Headers */,
+				2CFE9F78643C06D9997FBCD01813A0AC /* Sources */,
+				5C50E61D250152AFB59D7A016EF32E4B /* Frameworks */,
+				4B5E60D9C3F9CC5DF282B5643081405F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -421,7 +344,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9241629E8364D1AB2AC200AB59688FC6 /* ImageRecognitionDemo */,
+				ABA675D095F42B44C48750EB7752A09C /* ImageRecognitionDemo */,
 				1E41C7C9A8370322220B4761472D12AC /* Pods-ImageRecognitionDemo_Example */,
 				BBD583C74223B412CB4EE188CC2FE57B /* Pods-ImageRecognitionDemo_Tests */,
 			);
@@ -436,7 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA01AB3B6F9B2A50E48A06D6009E427C /* Resources */ = {
+		4B5E60D9C3F9CC5DF282B5643081405F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,6 +376,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2CFE9F78643C06D9997FBCD01813A0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B328A8F9FBF4E2DE8892BF493B8EF40B /* ImageRecognition.m in Sources */,
+				40AB494D5267364C7320B14E37D968F0 /* ImageRecognitionDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F3E4D880EB484967DD85DFD33C73D1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,15 +401,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C41CFFCA31194409546FA2EBE298B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C31C3000081DADBA5EA89483951E98F5 /* ImageRecognition.m in Sources */,
-				F9F780DAB40A52CEE76A8F968F28DD0C /* ImageRecognitionDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -490,7 +413,7 @@
 		A2179627CF25B03A0F404E1DF808DFF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageRecognitionDemo;
-			target = 9241629E8364D1AB2AC200AB59688FC6 /* ImageRecognitionDemo */;
+			target = ABA675D095F42B44C48750EB7752A09C /* ImageRecognitionDemo */;
 			targetProxy = 2CF3D795CC15A048E19B0C0B61560607 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -529,36 +452,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		0AF02E1DB448861EB4188E1FA6A68D4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D2321A0B949A60AED89B3EE93C4D60E /* ImageRecognitionDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo.modulemap";
-				PRODUCT_MODULE_NAME = ImageRecognitionDemo;
-				PRODUCT_NAME = ImageRecognitionDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -624,6 +517,37 @@
 			};
 			name = Debug;
 		};
+		561363F66C0C8CFDD590A5DD0FA9E078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E8DE775C39891C4E37B91BF98FE4CA /* ImageRecognitionDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo.modulemap";
+				PRODUCT_MODULE_NAME = ImageRecognitionDemo;
+				PRODUCT_NAME = ImageRecognitionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5E99D281A30B39586674CEC599274E19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 977428839AFB245F3234CB92FE17B0AC /* Pods-ImageRecognitionDemo_Example.release.xcconfig */;
@@ -657,6 +581,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		635CE7E835F3AEB038731261A4A4F0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E8DE775C39891C4E37B91BF98FE4CA /* ImageRecognitionDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo.modulemap";
+				PRODUCT_MODULE_NAME = ImageRecognitionDemo;
+				PRODUCT_NAME = ImageRecognitionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -784,37 +738,6 @@
 			};
 			name = Debug;
 		};
-		BB8DFB5061330C8D334A39DBC3852212 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D2321A0B949A60AED89B3EE93C4D60E /* ImageRecognitionDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageRecognitionDemo/ImageRecognitionDemo.modulemap";
-				PRODUCT_MODULE_NAME = ImageRecognitionDemo;
-				PRODUCT_NAME = ImageRecognitionDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -845,11 +768,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD104A4FF312CBE214431433E18CCA08 /* Build configuration list for PBXNativeTarget "ImageRecognitionDemo" */ = {
+		F88F94E91332658DF65FE7026242B565 /* Build configuration list for PBXNativeTarget "ImageRecognitionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AF02E1DB448861EB4188E1FA6A68D4B /* Debug */,
-				BB8DFB5061330C8D334A39DBC3852212 /* Release */,
+				635CE7E835F3AEB038731261A4A4F0C2 /* Debug */,
+				561363F66C0C8CFDD590A5DD0FA9E078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

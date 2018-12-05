@@ -11,14 +11,6 @@
 #endif
 
 #import "ImageRecognition.h"
-#import "AipBase.h"
-#import "AipOpenUDID.h"
-#import "AipTokenManager.h"
-#import "NSErrorHelper.h"
-#import "AipCaptureCardVC.h"
-#import "AipGeneralVC.h"
-#import "AipOcrSdk.h"
-#import "AipOcrService.h"
 
 FOUNDATION_EXPORT double ImageRecognitionDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char ImageRecognitionDemoVersionString[];
